@@ -1,0 +1,14 @@
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\bin\Debug\Odessa.VideoRental.BusinessRules.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\bin\Debug\Odessa.VideoRental.BusinessRules.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\bin\Debug\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\bin\Debug\Odessa.VideoRental.DomainEntities.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\obj\Debug\Odessa.VideoRental.BusinessRules.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\obj\Debug\Odessa.VideoRental.BusinessRules.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\ClassLibrary1\obj\Debug\Odessa.VideoRental.BusinessRules.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\bin\Debug\Odessa.VideoRental.BusinessRules.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\bin\Debug\Odessa.VideoRental.BusinessRules.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\bin\Debug\Odessa.VideoRental.Messages.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\bin\Debug\Odessa.VideoRental.Messages.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\obj\Debug\Odessa.VideoRental.BusinessRules.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\obj\Debug\Odessa.VideoRental.BusinessRules.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessRules\obj\Debug\Odessa.VideoRental.BusinessRules.pdb

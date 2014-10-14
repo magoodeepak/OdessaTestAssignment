@@ -1,0 +1,7 @@
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\bin\Debug\Odessa.VideoRental.PersistenceLogic.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\bin\Debug\Odessa.VideoRental.PersistenceLogic.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\bin\Debug\Odessa.VideoRental.Messages.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\bin\Debug\Odessa.VideoRental.Messages.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\obj\Debug\Odessa.VideoRental.PersistenceLogic.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\obj\Debug\Odessa.VideoRental.PersistenceLogic.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.PersistenceLogic\obj\Debug\Odessa.VideoRental.PersistenceLogic.pdb

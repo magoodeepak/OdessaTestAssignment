@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CustomerManagement" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8929/CustomerManagement.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8929/CustomerManagement.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" />
+      <xsd:import schemaLocation="http://localhost:8929/CustomerManagement.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICustomerManagement_RegisterCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCustomer" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_RegisterCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_RegisterCustomer_ExceptionFaultContractFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" name="detail" element="q1:ExceptionFaultContract" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GetAllCustomers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomers" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GetAllCustomers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GetAllCustomers_ExceptionFaultContractFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" name="detail" element="q2:ExceptionFaultContract" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_RentMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:RentMovie" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_RentMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RentMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_RentMovie_ExceptionFaultContractFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" name="detail" element="q3:ExceptionFaultContract" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_ReturnMovie_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnMovie" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_ReturnMovie_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReturnMovieResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_ReturnMovie_ExceptionFaultContractFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" name="detail" element="q4:ExceptionFaultContract" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GenerateBill_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateBill" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GenerateBill_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateBillResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICustomerManagement_GenerateBill_ExceptionFaultContractFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" name="detail" element="q5:ExceptionFaultContract" />
+  </wsdl:message>
+  <wsdl:portType name="ICustomerManagement">
+    <wsdl:operation name="RegisterCustomer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomerManagement/RegisterCustomer" message="tns:ICustomerManagement_RegisterCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomerManagement/RegisterCustomerResponse" message="tns:ICustomerManagement_RegisterCustomer_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICustomerManagement/RegisterCustomerExceptionFaultContractFault" name="ExceptionFaultContractFault" message="tns:ICustomerManagement_RegisterCustomer_ExceptionFaultContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomerManagement/GetAllCustomers" message="tns:ICustomerManagement_GetAllCustomers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomerManagement/GetAllCustomersResponse" message="tns:ICustomerManagement_GetAllCustomers_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICustomerManagement/GetAllCustomersExceptionFaultContractFault" name="ExceptionFaultContractFault" message="tns:ICustomerManagement_GetAllCustomers_ExceptionFaultContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RentMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomerManagement/RentMovie" message="tns:ICustomerManagement_RentMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomerManagement/RentMovieResponse" message="tns:ICustomerManagement_RentMovie_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICustomerManagement/RentMovieExceptionFaultContractFault" name="ExceptionFaultContractFault" message="tns:ICustomerManagement_RentMovie_ExceptionFaultContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnMovie">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomerManagement/ReturnMovie" message="tns:ICustomerManagement_ReturnMovie_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomerManagement/ReturnMovieResponse" message="tns:ICustomerManagement_ReturnMovie_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICustomerManagement/ReturnMovieExceptionFaultContractFault" name="ExceptionFaultContractFault" message="tns:ICustomerManagement_ReturnMovie_ExceptionFaultContractFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateBill">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICustomerManagement/GenerateBill" message="tns:ICustomerManagement_GenerateBill_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICustomerManagement/GenerateBillResponse" message="tns:ICustomerManagement_GenerateBill_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/ICustomerManagement/GenerateBillExceptionFaultContractFault" name="ExceptionFaultContractFault" message="tns:ICustomerManagement_GenerateBill_ExceptionFaultContractFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICustomerManagement" type="tns:ICustomerManagement">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterCustomer">
+      <soap:operation soapAction="http://tempuri.org/ICustomerManagement/RegisterCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ExceptionFaultContractFault">
+        <soap:fault use="literal" name="ExceptionFaultContractFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <soap:operation soapAction="http://tempuri.org/ICustomerManagement/GetAllCustomers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ExceptionFaultContractFault">
+        <soap:fault use="literal" name="ExceptionFaultContractFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RentMovie">
+      <soap:operation soapAction="http://tempuri.org/ICustomerManagement/RentMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ExceptionFaultContractFault">
+        <soap:fault use="literal" name="ExceptionFaultContractFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnMovie">
+      <soap:operation soapAction="http://tempuri.org/ICustomerManagement/ReturnMovie" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ExceptionFaultContractFault">
+        <soap:fault use="literal" name="ExceptionFaultContractFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateBill">
+      <soap:operation soapAction="http://tempuri.org/ICustomerManagement/GenerateBill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ExceptionFaultContractFault">
+        <soap:fault use="literal" name="ExceptionFaultContractFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustomerManagement">
+    <wsdl:port name="BasicHttpBinding_ICustomerManagement" binding="tns:BasicHttpBinding_ICustomerManagement">
+      <soap:address location="http://localhost:8929/CustomerManagement.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

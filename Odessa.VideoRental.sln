@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odessa.VideoRental.PersistenceLogic", "Odessa.VideoRental.PersistenceLogic\Odessa.VideoRental.PersistenceLogic.csproj", "{306449AA-D4BD-4741-B8B9-988D29E623A6}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Odessa.VideoRental.Model", "Odessa.VideoRental.Modeling\Odessa.VideoRental.Model.modelproj", "{86B75349-96A8-4515-A699-DFA8A1011DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odessa.VideoRental.BusinessLogic.Tests", "Odessa.VideoRental.BusinessLogic.Tests\Odessa.VideoRental.BusinessLogic.Tests.csproj", "{7EF2CE5D-7467-40F3-8088-5346B14E6358}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0} = {A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odessa.VideoRental.BusinessRules", "Odessa.VideoRental.BusinessRules\Odessa.VideoRental.BusinessRules.csproj", "{9F262183-1C14-49C8-8EEC-531D67BF9400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odessa.VideoRental.Messages", "Odessa.VideoRental.Messages\Odessa.VideoRental.Messages.csproj", "{B25A7163-890A-4086-858A-D4D50813F4D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odessa.VideoRental.Service", "Odessa.VideoRental.Service\Odessa.VideoRental.Service.csproj", "{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{306449AA-D4BD-4741-B8B9-988D29E623A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306449AA-D4BD-4741-B8B9-988D29E623A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306449AA-D4BD-4741-B8B9-988D29E623A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306449AA-D4BD-4741-B8B9-988D29E623A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B75349-96A8-4515-A699-DFA8A1011DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B75349-96A8-4515-A699-DFA8A1011DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B75349-96A8-4515-A699-DFA8A1011DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B75349-96A8-4515-A699-DFA8A1011DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF2CE5D-7467-40F3-8088-5346B14E6358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF2CE5D-7467-40F3-8088-5346B14E6358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF2CE5D-7467-40F3-8088-5346B14E6358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF2CE5D-7467-40F3-8088-5346B14E6358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F262183-1C14-49C8-8EEC-531D67BF9400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F262183-1C14-49C8-8EEC-531D67BF9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F262183-1C14-49C8-8EEC-531D67BF9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F262183-1C14-49C8-8EEC-531D67BF9400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25A7163-890A-4086-858A-D4D50813F4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25A7163-890A-4086-858A-D4D50813F4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25A7163-890A-4086-858A-D4D50813F4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25A7163-890A-4086-858A-D4D50813F4D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07DDA11-1BFE-4FB4-A417-8A5B44C7D6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

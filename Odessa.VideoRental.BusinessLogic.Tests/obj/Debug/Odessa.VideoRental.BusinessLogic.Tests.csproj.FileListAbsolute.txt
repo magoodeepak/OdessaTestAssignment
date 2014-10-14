@@ -1,0 +1,9 @@
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\AllPositiveTests.orderedtest
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\Odessa.VideoRental.BusinessLogic.Tests.dll.config
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\Odessa.VideoRental.BusinessLogic.Tests.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\Odessa.VideoRental.BusinessLogic.Tests.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\Odessa.VideoRental.Messages.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\bin\Debug\Odessa.VideoRental.Messages.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\obj\Debug\Odessa.VideoRental.BusinessLogic.Tests.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\obj\Debug\Odessa.VideoRental.BusinessLogic.Tests.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic.Tests\obj\Debug\Odessa.VideoRental.BusinessLogic.Tests.pdb

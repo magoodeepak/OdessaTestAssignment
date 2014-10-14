@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e5281083-e336-441f-b933-7ef21a1c4ee9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="Odessa.VideoRental.Messages" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8929/CustomerManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerManagement.disco" MetadataType="Disco" ID="09934429-1a14-400a-8c34-cdf74fec2961" SourceId="1" SourceUrl="http://localhost:8929/CustomerManagement.svc?disco" />
+    <MetadataFile FileName="CustomerManagement.wsdl" MetadataType="Wsdl" ID="6f36b239-1486-49c6-89b4-c861dcbeadfa" SourceId="1" SourceUrl="http://localhost:8929/CustomerManagement.svc?wsdl" />
+    <MetadataFile FileName="CustomerManagement.xsd" MetadataType="Schema" ID="378bd977-7c7b-46de-8aaa-d7c9672804c0" SourceId="1" SourceUrl="http://localhost:8929/CustomerManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="CustomerManagement1.xsd" MetadataType="Schema" ID="8a9f596d-06c5-4668-8e6d-395d81427b35" SourceId="1" SourceUrl="http://localhost:8929/CustomerManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="CustomerManagement2.xsd" MetadataType="Schema" ID="964afcb0-20de-4f93-93e5-f9b5631f6058" SourceId="1" SourceUrl="http://localhost:8929/CustomerManagement.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

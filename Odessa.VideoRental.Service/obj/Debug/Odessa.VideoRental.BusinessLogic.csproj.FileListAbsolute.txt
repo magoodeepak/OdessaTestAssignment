@@ -1,0 +1,12 @@
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.BusinessLogic.dll.config
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.BusinessLogic.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.BusinessLogic.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\ClassLibrary1.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.PersistenceLogic.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\ClassLibrary1.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.DomainEntities.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\bin\Odessa.VideoRental.PersistenceLogic.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\obj\Debug\Odessa.VideoRental.BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\obj\Debug\Odessa.VideoRental.BusinessLogic.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.BusinessLogic\obj\Debug\Odessa.VideoRental.BusinessLogic.pdb

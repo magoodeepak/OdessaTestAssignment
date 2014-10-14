@@ -1,0 +1,8 @@
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\bin\Debug\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\bin\Debug\Odessa.VideoRental.DomainEntities.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\obj\Debug\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\obj\Debug\Odessa.VideoRental.DomainEntities.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.Messages\bin\Debug\Odessa.VideoRental.Messages.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.Messages\bin\Debug\Odessa.VideoRental.Messages.pdb
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.Messages\obj\Debug\Odessa.VideoRental.Messages.dll
+E:\Personal\Odessa.VideoRental\Odessa.VideoRental.Messages\obj\Debug\Odessa.VideoRental.Messages.pdb

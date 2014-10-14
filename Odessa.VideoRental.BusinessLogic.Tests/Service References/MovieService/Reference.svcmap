@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="17e5bfe4-b85b-4cc1-9e4d-642c803d9678" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8929/MovieManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MovieManagement.xsd" MetadataType="Schema" ID="51696431-8341-4c4f-ad73-dd7d4a3bd2fd" SourceId="1" SourceUrl="http://localhost:8929/MovieManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="MovieManagement1.xsd" MetadataType="Schema" ID="4637c19d-726a-4399-b9de-4634e3b64f64" SourceId="1" SourceUrl="http://localhost:8929/MovieManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="MovieManagement.disco" MetadataType="Disco" ID="14e12551-f062-43a4-a023-b54b9d4e2b1d" SourceId="1" SourceUrl="http://localhost:8929/MovieManagement.svc?disco" />
+    <MetadataFile FileName="MovieManagement2.xsd" MetadataType="Schema" ID="fdfcfa59-3297-4903-890c-3de2233e50da" SourceId="1" SourceUrl="http://localhost:8929/MovieManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="MovieManagement.wsdl" MetadataType="Wsdl" ID="1f87d07d-70ff-4f31-9ffd-ce7ef1e3904a" SourceId="1" SourceUrl="http://localhost:8929/MovieManagement.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

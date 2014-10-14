@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="5ec1dbcf-d868-45e4-9686-fbf42f2dd0e6" name="Conceptual" linkedPackageId="11e5a47c-9563-47dd-a1b5-f0074b902d38" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="8e487c01-383c-449b-a393-fad975f53ac2" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="93871559-5420-40e2-90b7-054db7497e97" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c345c7ed-8b23-4dfc-a4d1-e3520564241d">
+          <propertyInstance Id="e90e7bff-488b-4941-8aad-db663b0d7c62" name="BaseName">
+            <elementDefinition Id="17fcdbd7-a0ab-45a7-9925-b5a038d6fb21" />
+          </propertyInstance>
+          <elementDefinition Id="7269790a-9d69-469e-901e-c90fb60dc6ec" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="aa50cb63-1845-4d2e-bd01-2afe4db7cb20">
+          <propertyInstance Id="6d98e694-1a5d-474c-9c24-f31c6e10a96e" name="ClrAttributes">
+            <elementDefinition Id="eff84920-c423-431a-90c9-5d8249542121" />
+          </propertyInstance>
+          <elementDefinition Id="f74cf364-ad49-4632-a270-6bbb84ac1231" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="62e146a9-38c5-419c-8587-e987cf1b97b9">
+          <propertyInstance Id="cbed74b0-45fb-47b5-a3fb-555e4f76dd9b" name="Usings">
+            <elementDefinition Id="2be80a26-d790-4f9a-924f-1b4019327362" />
+          </propertyInstance>
+          <elementDefinition Id="e6ebe528-e504-4a22-891d-74c8bab1ae7b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="386777cc-9473-4fe7-9932-84116c49f536" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="b0097f3a-2d91-46f2-ad12-7172bea99173" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="196b0b49-a746-4e8e-b29a-2f36580a4f1a">
+          <propertyInstance Id="4f04da0a-45f8-47ba-addc-ebbaca8b4da0" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="e237a617-5d6f-4675-8162-6cac46012e27" />
+          </propertyInstance>
+          <elementDefinition Id="d4a0a273-9e90-43c9-aef9-9213e08e0a04" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0fabbcb9-7141-43c3-954c-174d49ba4470">
+          <propertyInstance Id="c7dca546-d2fd-42bf-a872-f0ef3da886d3" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="28138c8e-4a3b-4fce-b7f0-6c1bc9e5f1da" />
+          </propertyInstance>
+          <elementDefinition Id="4a0f5fec-79bd-4961-afb6-268b8759df02" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="acccc7cb-7318-43a7-8a8c-d4649aed1c9e">
+          <propertyInstance Id="921a2082-85d7-422f-a374-9bd104158ca0" name="ProjectPath" value="ClassTemplate=..\Odessa.VideoRental.ModelingLib\Odessa.VideoRental.ModelingLib.csproj|EnumTemplate=..\Odessa.VideoRental.ModelingLib\Odessa.VideoRental.ModelingLib.csproj|InterfaceTemplate=..\Odessa.VideoRental.ModelingLib\Odessa.VideoRental.ModelingLib.csproj|StructTemplate=..\Odessa.VideoRental.ModelingLib\Odessa.VideoRental.ModelingLib.csproj">
+            <elementDefinition Id="683005da-62c7-445f-a6ea-23a09d472ac2" />
+          </propertyInstance>
+          <elementDefinition Id="281c377c-87a5-45f4-a2d1-4a817b718cec" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="29969364-64f8-4ca0-9c46-251ef786fa66">
+          <propertyInstance Id="34d8a346-c89c-49bc-8766-e27d1f016125" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="9f383173-552e-4302-8d7c-b93f4fb67fe2" />
+          </propertyInstance>
+          <elementDefinition Id="f1979382-174a-4c9d-b55e-a78612c1ade9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="497f7251-22ef-4245-9b9e-7538a1636f79">
+          <propertyInstance Id="604c2297-0ff7-42e5-8d02-79eb01868ac2" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="92e97765-de18-4994-ae88-2dd8c71ed1fb" />
+          </propertyInstance>
+          <elementDefinition Id="9ebf6f79-0e7e-4443-b08f-71cc7198c2ed" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c74b82f0-f62b-4a99-ad68-b2950cba6695">
+          <propertyInstance Id="c78b1d05-eac0-414e-9a11-1fedcea5cc62" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="dd66e5a7-fc86-4fab-96cf-745408625dce" />
+          </propertyInstance>
+          <elementDefinition Id="7b01e6f5-849e-4154-aa4f-04f4f119e4da" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c82b8c1e-4f0a-43ff-bc5c-c992ae2863df">
+          <propertyInstance Id="befe712c-1f5f-41eb-a6c7-59bd08d6cb9a" name="Parameters">
+            <elementDefinition Id="5914e123-bf06-44e7-a853-c4afa6ce3b54" />
+          </propertyInstance>
+          <elementDefinition Id="c867af27-c98a-443c-ab66-75f598f4ab26" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f5d720fd-cf37-4314-8b24-6c89b01f8989" name="Customer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c74cd7c-e4b5-4433-b80c-712e580eca79" />
+        <targetEnds>
+          <association Id="bdaa0301-46f9-4d6e-bed9-3bdb71eb3f18" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="606b65b3-1429-428b-a813-66bb7c2aac7a" LastKnownName="Registration" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cbeda686-2d12-4b23-9e63-a4eb7bc0a060" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2892d3db-c0d8-4e5f-bccc-a9c8a6a1d2bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2009adcb-08f9-4c0c-a9cb-806b8bd4f681" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="10453d79-27f0-4dda-8117-0108501fe03d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1682a9c7-c31c-4de4-8f45-a5da962bffef" />
+          </association>
+          <association Id="96e0ef2e-9ac0-45ce-8932-f7cd5882ee61" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c1f5e754-9f9f-4ad9-bc62-e98c9fb27313" LastKnownName="Returns a movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c9adf3c-1f60-4fdc-ab1c-3cb7bbc0ad7c" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="80e6118d-c945-4c22-be65-73d55b9ef7b1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7723a0da-97c5-4eb4-8f70-35931cfb1947" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="503b01ee-caff-4924-bb5d-738519836f25" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ee5f38e0-a08b-42f9-aa7a-dc73dd3a6505" />
+          </association>
+          <association Id="f8e5af63-c0c6-498e-90e8-689b459aadab" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7dc0b1dd-7efe-47d3-8f6a-188dec1bf0a8" LastKnownName="Generates bill" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d61d572b-4d98-4591-9234-f2923de313f1" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b7f15ebd-cc60-4c46-8eac-d408e5f17873" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="43d997c2-009b-439c-a941-263f8eedfbc5" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eabf216c-ec1c-4307-8498-f617ca89e5c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9924fb96-3d12-4007-b800-015ddb9294b0" />
+          </association>
+          <association Id="0dfa00af-b222-4588-b548-93fe1adb94b0" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Rents a movie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bab47726-4872-4b34-92d8-83654deac391" LastKnownName="Rents a movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4e9838ff-adca-45f5-b4f0-ddf7f817f054" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="278d79b4-c02a-4c24-b74b-1c6071cdf84f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3088058-5de6-4551-958b-9e1156e794ef" name="Rents a movie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5139c4b8-ae72-4e5b-ad1e-c07da832665a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0206b2bc-8108-4de4-8387-518903df28e2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="1fcc2eb2-d608-4271-ab02-4a772e2c919a" name="Store Manager" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="35201bb5-164f-4e80-948a-8118e334ea09" />
+        <targetEnds>
+          <association Id="a2a396b7-9568-4733-886d-dcf1fe7c77a5" isDerived="false" sourceEndRoleName="Store Manager" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="98bbb2bc-38ae-4cf8-9748-c0a142fad3bb" LastKnownName="Add movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8cd250bb-30a5-466a-adf9-20b5a5aaf2ca" name="Store Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8f0683b7-9736-4ffa-a8f1-27ac22ac2cf1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9cee1a3a-d691-4f3c-ae1d-b92d158803fd" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1d406b81-1abe-4521-b0d5-6931a6d32c61" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e2d63d48-f892-4bc3-9101-5f02c6f34fe3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="606b65b3-1429-428b-a813-66bb7c2aac7a" name="Registration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e31e87ff-d7f9-49b3-baff-0da3be8305af" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bab47726-4872-4b34-92d8-83654deac391" name="Rents a movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c84acc57-cd7b-4331-8213-d65882e6780f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="98bbb2bc-38ae-4cf8-9748-c0a142fad3bb" name="Add movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a9ac7c87-666f-4bd9-8f3f-272ff93e85c6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c1f5e754-9f9f-4ad9-bc62-e98c9fb27313" name="Returns a movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0f616dab-7609-4a87-aa04-3dc03b1ad8cc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7dc0b1dd-7efe-47d3-8f6a-188dec1bf0a8" name="Generates bill" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb782ee6-cefb-4dd2-a1e8-5c5d4ee1d114" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="11e5a47c-9563-47dd-a1b5-f0074b902d38" name="Odessa.VideoRental.Modeling">
+    <elementDefinition Id="ac0d9637-31ac-4492-99a9-decb60cd978a" />
+    <profileInstances>
+      <packageHasProfileInstances Id="33ea956d-f0ca-40f8-a42f-5fd9d4e1be94">
+        <profileInstance Id="d3019cee-7b5f-4cde-b6a4-57159aed9564" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="77097372-ff31-4036-9a14-a06aaff6fd86">
+        <profileInstance Id="a3406189-16e4-4c45-aee5-086a1795d2e7" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7d6c6aee-d08d-45e0-9473-2004538757a7">
+        <profileInstance Id="9d5a1f23-6d8e-47d2-aabe-6b8fc7ab1f9a" name="CSharpProfile">
+          <elementDefinition Id="30d2a8d2-f024-4367-a9e9-2cd6474c5436" />
+        </profileInstance>
+        <elementDefinition Id="fd1d16b3-b72c-4b35-ad4c-1b40ee541bb7" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4c94c2f0-bab8-48f9-9c8a-4330f0c3e40b">
+        <profileInstance Id="63c3351d-1c7b-4dbf-b873-661b2960564e" name="TextTemplateBindings">
+          <elementDefinition Id="20d3f6bd-2354-4c1b-b7cb-a3a6a893e9e1" />
+        </profileInstance>
+        <elementDefinition Id="f5a995ec-beb4-41c8-8c95-f28d8ea956c7" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

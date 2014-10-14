@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Customer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BillingAddress" nillable="true" type="tns:Address" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MovieRentalHistory" nillable="true" type="tns:ArrayOfMovieRentalItem" />
+      <xs:element minOccurs="0" name="RegistrationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ShippingAddress" nillable="true" type="tns:Address" />
+      <xs:element minOccurs="0" name="TotalRentalPoints" type="xs:int" />
+      <xs:element minOccurs="0" name="UniqueNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Customer" nillable="true" type="tns:Customer" />
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AddressLine1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AddressLine2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="State" type="tns:StateEnum" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Address" nillable="true" type="tns:Address" />
+  <xs:simpleType name="StateEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Haryana" />
+      <xs:enumeration value="Karnataka" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="StateEnum" nillable="true" type="tns:StateEnum" />
+  <xs:complexType name="ArrayOfMovieRentalItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MovieRentalItem" nillable="true" type="tns:MovieRentalItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMovieRentalItem" nillable="true" type="tns:ArrayOfMovieRentalItem" />
+  <xs:complexType name="MovieRentalItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Customer" nillable="true" type="tns:Customer" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Movie" nillable="true" type="tns:Movie" />
+      <xs:element minOccurs="0" name="MovieRentalItemUID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RentalBill" type="xs:double" />
+      <xs:element minOccurs="0" name="RentedDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RenterPoints" type="xs:int" />
+      <xs:element minOccurs="0" name="ReturnDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MovieRentalItem" nillable="true" type="tns:MovieRentalItem" />
+  <xs:complexType name="Movie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Category" type="tns:MovieCategoryEnum" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Movie" nillable="true" type="tns:Movie" />
+  <xs:simpleType name="MovieCategoryEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Regular" />
+      <xs:enumeration value="New" />
+      <xs:enumeration value="Kids" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MovieCategoryEnum" nillable="true" type="tns:MovieCategoryEnum" />
+  <xs:complexType name="ResponseEnvelopeOfCustomerXi4_PVxnh">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ResponseEnvelopeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="Customer" Namespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="List" nillable="true" type="tns:ArrayOfCustomer" />
+      <xs:element minOccurs="0" name="ResponseCode" type="tns:ResponseCodeEnum" />
+      <xs:element minOccurs="0" name="ResponseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseEnvelopeOfCustomerXi4_PVxnh" nillable="true" type="tns:ResponseEnvelopeOfCustomerXi4_PVxnh" />
+  <xs:complexType name="ArrayOfCustomer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Customer" nillable="true" type="tns:Customer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCustomer" nillable="true" type="tns:ArrayOfCustomer" />
+  <xs:simpleType name="ResponseCodeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ResponseOk" />
+      <xs:enumeration value="ResponseDataError" />
+      <xs:enumeration value="ResponseBusinessRuleVoilation" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResponseCodeEnum" nillable="true" type="tns:ResponseCodeEnum" />
+  <xs:complexType name="ExceptionFaultContract">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExceptionFaultContract" nillable="true" type="tns:ExceptionFaultContract" />
+  <xs:complexType name="ResponseEnvelopeOfMovieRentalItemXi4_PVxnh">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ResponseEnvelopeOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="MovieRentalItem" Namespace="http://schemas.datacontract.org/2004/07/Odessa.VideoRental.Messages" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="List" nillable="true" type="tns:ArrayOfMovieRentalItem" />
+      <xs:element minOccurs="0" name="ResponseCode" type="tns:ResponseCodeEnum" />
+      <xs:element minOccurs="0" name="ResponseMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseEnvelopeOfMovieRentalItemXi4_PVxnh" nillable="true" type="tns:ResponseEnvelopeOfMovieRentalItemXi4_PVxnh" />
+</xs:schema>

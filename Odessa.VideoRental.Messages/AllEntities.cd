@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Odessa.VideoRental.Messages.Customer">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACgEAAUAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShippingAddress" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Odessa.VideoRental.Messages.Movie">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Odessa.VideoRental.Messages.Address">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAQAAA=</HashCode>
+      <FileName>Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Odessa.VideoRental.Messages.MovieRentalItem">
+    <Position X="3.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAECAAAAAAAAEgAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovieRentalItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Odessa.VideoRental.Messages.ResponseEnvelope&lt;TEntity&gt;">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAI=</HashCode>
+      <FileName>ResponseEnvelope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Odessa.VideoRental.Messages.MovieCategoryEnum">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACACAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovieCategoryEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Odessa.VideoRental.Messages.StateEnum">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAA=</HashCode>
+      <FileName>StateEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Odessa.VideoRental.Messages.ResponseCodeEnum">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResponseCodeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,5 @@
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\bin\Debug\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\bin\Debug\Odessa.VideoRental.DomainEntities.pdb
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\obj\Debug\Odessa.VideoRental.DomainEntities.csprojResolveAssemblyReference.cache
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\obj\Debug\Odessa.VideoRental.DomainEntities.dll
+E:\Personal\Odessa\Test\Odessa.VideoRental\Odessa.VideoRental.DomainEntities\obj\Debug\Odessa.VideoRental.DomainEntities.pdb
